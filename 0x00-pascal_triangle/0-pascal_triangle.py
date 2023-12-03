@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""
+Function for pascal triangle
+"""
+
+
 def pascal_triangle(n):
     """
     Print pascal triangle in arrays
