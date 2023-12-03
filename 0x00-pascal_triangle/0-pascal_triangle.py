@@ -1,4 +1,7 @@
 def pascal_triangle(n):
+    """
+    Print pascal triangle in arrays
+    """
     if n <= 0:
         return []
     triangle = [[1]]
