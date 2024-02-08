@@ -1,4 +1,17 @@
+#!/usr/bin/python3
+
+"""Island function"""
+
+
 def island_perimeter(grid):
+    """_summary_
+
+    Args:
+        grid (2D array): list of list of integers
+
+    Returns:
+        int: perimeter of the island
+    """
     rows, cols = len(grid), len(grid[0])
     perimeter = 0
 
