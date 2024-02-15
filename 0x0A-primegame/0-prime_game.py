@@ -1,4 +1,10 @@
+#!/usr/bin/python3
+
+'''Define function'''
+
+
 def isWinner(x, nums):
+    '''Winner'''
     def sieve(n):
         primes = [True for _ in range(n + 1)]
         p = 2
